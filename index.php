@@ -46,29 +46,29 @@ session_start();
     </div>
 
     <!-- <div id="content" data-target="#navbarNavAltMarkup"> -->
-        
-        <!-- rel="modal:open -->
-        <article class="card-body">
-            <a class="float-right btn btn-outline-primary id" data-toggle="modal" data-target="#registerForm"> Sign up </a>
 
-            <h4 class=" card-title mb-4 mt-1"> Sign in </h4>
-            <!--user login -->
-            <form role="form" action="authenticate.php" method="post">
-                <div class="form-group">
-                    <label> Your Username </label>
-                    <input id="username" name="username" class="form-control" placeholder="Username" type="text" required>
-                </div>
-                <div class="form-group">
-                    <a class="float-right" href="#"> Forgot? </a>
-                    <label> Your password </label>
-                    <input id="password" name="password" class="form-control" placeholder="******" type="password" required>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-block" value="Submit"> Login </button>
-                </div>
-            </form>
+    <!-- rel="modal:open -->
+    <article class="card-body">
+        <a class="float-right btn btn-outline-primary id" data-toggle="modal" data-target="#registerForm"> Sign up </a>
 
-        </article>
+        <h4 class=" card-title mb-4 mt-1"> Sign in </h4>
+        <!--user login -->
+        <form role="form" action="authenticate.php" method="post">
+            <div class="form-group">
+                <label> Your Username </label>
+                <input id="username" name="username" class="form-control" placeholder="Username" type="text" required>
+            </div>
+            <div class="form-group">
+                <a class="float-right" href="#"> Forgot? </a>
+                <label> Your password </label>
+                <input id="password" name="password" class="form-control" placeholder="******" type="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block" value="Submit"> Login </button>
+            </div>
+        </form>
+
+    </article>
     </div>
 
     <!-- ------------------------------------------------------------------------------------- -->
@@ -79,6 +79,7 @@ session_start();
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
+                    <h4 class=" card-title mb-4 mt-1"> Sign Up </h4>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -112,12 +113,12 @@ session_start();
                             <input type="text" class="form-control" id="lastname" name="lastname" required>
                         </div>
                         <div class="form-group">
-                            <button type="submit" value='Submit' id="registerButton" name='registerButton' class="signup btn btn-primary btn-block">Sign Up</button>
+                            <button type="submit" value='Submit' id="registerButton" name='registerButton' class="signup btn btn-primary btn-block mb-4 mt-4" >Sign Up</button>
                         </div>
 
 
                     </form>
-                    
+
                 </div>
 
             </div>
