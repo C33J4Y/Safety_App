@@ -270,7 +270,7 @@ $("#usrForm").on('submit', function(event) {
       }
 
 
-      /* for custom scrollbar for webkit browser*/
+      /* for custom scrollbar for webkit browser
 
       ::-webkit-scrollbar {
         width: 6px;
@@ -282,7 +282,7 @@ $("#usrForm").on('submit', function(event) {
 
       ::-webkit-scrollbar-thumb {
         -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-      }
+      } */
     </style>
 
     <footer>
