@@ -123,9 +123,6 @@ $("#usrForm").on('submit', function(event) {
 </script>
                   <?php
 
-
-
-                  
                   if (isset($_POST["submit"])) {
        
                       $name = $_POST['usrName'];
