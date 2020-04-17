@@ -16,9 +16,6 @@
 </header>  
 <?php 
     
-    //Prints out userid of user currently logged in   
-     //$userid = $_SESSION['userid'];
-     //echo '<p>'.$userid.'</p>';   
     
     
     // Oracle query to select from Student table
@@ -40,10 +37,7 @@
                 echo "<p><input class='btn btn-primary btn-lg text-center textInput col-md-4'  type='submit' name='submit' value='Submit'/></p>";
                 echo "</form>";
     
-    //Oracle Query to update Student table
-   // $query = "SELECT * FROM login WHERE username = '$username'and email ='$email'";
-    //$stid = oci_parse($conn, $query);
-    //oci_execute($stid);
+   
 
 
 if(isset($_POST["submit"])){
