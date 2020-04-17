@@ -155,16 +155,8 @@ $("#usrForm").on('submit', function(event) {
                   
 
                   ?>
-
-
-
-
-
           </div>
         </div>
-
-
-
 
     </div>
 
