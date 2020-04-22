@@ -26,8 +26,6 @@
                 <tr>
                     
                 </tr>
-
-
             </table>
 
             <?php
