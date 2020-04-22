@@ -10,7 +10,6 @@ $(document).ready(function () {
             dataType: "json",
             success: function (data) {
 
-
                 if (data.act == 'Y') {
 
                     console.log('ajax call was success');
@@ -45,12 +44,6 @@ $(document).ready(function () {
     }
 
 
-    // load_unseen_notification();
-
-    // $('.dropdown-toggle').click( function () {
-    //     $('.count').html('');
-    //     // load_unseen_notification('YES');
-    // });
 
 
     $('#cancel').click(function(){
@@ -89,19 +82,6 @@ $(document).ready(function () {
     // var fire = 9700;
     // var tornado = 9000;
     // var timedelay = 5000;
-
-
-    
-
-    $("#registerButton").click(function () {
-        $.post("register.php", function (data, status) {
-            alert("Data: " + data + "\nStatus: " + status);
-        });
-    });
-
-    
-
-    
 
     setInterval(function () {
         load_unseen_notification();;
